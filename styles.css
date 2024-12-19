@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #0E0E0E;
+    display:flex;
+    justify-content: center;
+    font-family: "Roboto", serif; 
+}
+
+.pagina{
+    height: 100%;
+    width: 778px;
+    background-color: #000000;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+   
+}
+
+.instagram{
+    width: 448px;
+    height: 611px;
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    
+   
+}   
+
+/* cuerpo de instagram */
+
+.post-header{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    
+}
+
+
+.logo{
+    width:35px;
+    height: 35px;
+    display: flex;
+}
+
+.texto-header{
+    display: flex;
+   
+}
+
+.post-img{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.tres-puntos{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+    align-items: center;
+}
+
+.img-tres-puntos{
+    display: flex;
+    align-items: center;
+}
+
+.post-icons{
+    display: flex;;
+    height: 65px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.primeras{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px; 
+}
+/* iconos individuales izquierda */
+
+.heart {
+    font-size: 32px;
+    padding-right: 9px;
+    padding-left: 5px;
+} 
+
+.comment {
+    font-size: 32px;
+    padding-right: 9px;
+}
+
+.send {
+    font-size: 29px;
+}
+
+.save {
+    font-size: 32px;
+    display: flex;
+    padding-right: 16px;
+    align-items: center;
+}
+
+
+/* párrafos */
+.p1 {
+    font-size: 10px;
+    background-color: white;
+    min-height: 35px;
+    font-size: 14px;
+    padding: 10px
+}
+
+.p2 {
+    background-color: white;
+    display: flex;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0px 10px 10px 10px;
+}
+
+.post-header,
+.post-img,
+.post-icons,
+.post-body
+ {
+    width: 100%; 
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+ 
+}
